@@ -21,9 +21,15 @@ main {
 }
 
 .books {
-    background-color: blueviolet;
+    background-color: rgb(250, 250, 250);
 }
 
 .add-book {
     background-color: blue;
+}
+
+.book-info {
+    display: grid;
+    place-content: center
+    ;
 }
