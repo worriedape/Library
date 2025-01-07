@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Library</title>
   </head>
   <body>
     <nav></nav>
     <main>
-      <div class="books"></div>
+      <div class="books">
+        <table id="book-list">
+          <tr id="headers">
+            <th id="title-th">Title</th>
+            <th id="author-th">Author</th>
+            <th id="pages-th">Pages</th>
+            <th id="alreadyread-th">Already read</th>
+          </tr>
+        </table>
+      </div>
       <div class="book-info">
-        <input type="text" id="title" placeholder="Book title"/>
-        <input type="text" id="author" placeholder="Author"/>
-        <input type="number" id="pages" placeholder="How many pages"/>
+        <input type="text" id="title" placeholder="Book title" />
+        <input type="text" id="author" placeholder="Author" />
+        <input type="number" id="pages" placeholder="How many pages" />
         <input type="checkbox" id="read" />
         <button type="submit" id="add-book">Add book</button>
       </div>
