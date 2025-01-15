@@ -56,39 +56,3 @@ button {
 button:hover {
   background-color: #cc0000;
 }
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    display: grid;
-    grid-template-rows: 64px 1fr;
-}
-
- nav {
-    background-color: rgb(150, 150, 150);
-}
- 
-main {
-    background-color: rgb(99, 155, 187);
-    height: calc(100vh - 64px);
-    display: grid;
-    grid-template-columns: 1fr 256px;
-}
-
-.books {
-    background-color: rgb(250, 250, 250);
-}
-
-.add-book {
-    background-color: blue;
-}
-
-.book-info {
-    display: grid;
-    place-content: center
-    ;
-} */
